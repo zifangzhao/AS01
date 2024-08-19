@@ -1,0 +1,15 @@
+﻿  nsx2dat.c
+d:\code\python\as01\git\source\code\nsxconverter\nsxconverter\nsx2dat.c(98): warning C4013: “decodeDataHeader”未定义；假设外部返回 int
+d:\code\python\as01\git\source\code\nsxconverter\nsxconverter\nsx2dat.c(114): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+d:\code\python\as01\git\source\code\nsxconverter\nsxconverter\nsx2dat.c(119): warning C4244: “函数”: 从“__int64”转换到“std::size_t”，可能丢失数据
+d:\code\python\as01\git\source\code\nsxconverter\nsxconverter\nsx2dat.c(40): warning C4101: “samplingRate”: 未引用的局部变量
+d:\code\python\as01\git\source\code\nsxconverter\nsxconverter\nsx2dat.c(96): warning C4101: “Npoints”: 未引用的局部变量
+d:\code\python\as01\git\source\code\nsxconverter\nsxconverter\nsx2dat.c(141): warning C4244: “函数”: 从“unsigned __int64”转换到“long”，可能丢失数据
+d:\code\python\as01\git\source\code\nsxconverter\nsxconverter\nsx2dat.c(150): warning C4244: “=”: 从“unsigned __int64”转换到“unsigned long”，可能丢失数据
+d:\code\python\as01\git\source\code\nsxconverter\nsxconverter\nsx2dat.c(169): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+d:\code\python\as01\git\source\code\nsxconverter\nsxconverter\nsx2dat.c(176): warning C4244: “=”: 从“unsigned __int64”转换到“unsigned long”，可能丢失数据
+d:\code\python\as01\git\source\code\nsxconverter\nsxconverter\nsx2dat.c(177): warning C4244: “函数”: 从“unsigned __int64”转换到“long”，可能丢失数据
+d:\code\python\as01\git\source\code\nsxconverter\nsxconverter\nsx2dat.c(133): warning C4101: “timestamp”: 未引用的局部变量
+d:\code\python\as01\git\source\code\nsxconverter\nsxconverter\nsx2dat.c(134): warning C4101: “datacount”: 未引用的局部变量
+  nsxConverter.vcxproj -> D:\code\Python\AS01\git\Source\Code\nsxConverter\nsxConverter\Debug\nsxConverter.exe
+  nsxConverter.vcxproj -> D:\code\Python\AS01\git\Source\Code\nsxConverter\nsxConverter\Debug\nsxConverter.pdb (Partial PDB)

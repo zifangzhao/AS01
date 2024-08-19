@@ -1,0 +1,970 @@
+<?xml version='1.0'?>
+<parameters version="1.0" creator="ndManager-">
+ <generalInfo>
+  <date>2017-04-30</date>
+  <experimenters>lab006</experimenters>
+  <description/>
+  <notes/>
+ </generalInfo>
+ <acquisitionSystem>
+  <nBits>16</nBits>
+  <nChannels>16</nChannels>
+  <samplingRate>20000</samplingRate>
+  <voltageRange>20</voltageRange>
+  <amplification>1000</amplification>
+  <offset>0</offset>
+ </acquisitionSystem>
+ <fieldPotentials>
+  <lfpSamplingRate>1250</lfpSamplingRate>
+ </fieldPotentials>
+ <files>
+  <file>
+   <samplingRate>1250</samplingRate>
+   <extension>lfp</extension>
+  </file>
+ </files>
+ <anatomicalDescription>
+  <channelGroups>
+   <group>
+    <channel skip="0">0</channel>
+    <channel skip="0">2</channel>
+    <channel skip="0">4</channel>
+    <channel skip="0">6</channel>
+   </group>
+   <group>
+    <channel skip="0">1</channel>
+    <channel skip="0">3</channel>
+    <channel skip="0">5</channel>
+    <channel skip="0">7</channel>
+   </group>
+   <group>
+    <channel skip="0">8</channel>
+    <channel skip="0">10</channel>
+    <channel skip="0">12</channel>
+    <channel skip="0">14</channel>
+   </group>
+   <group>
+    <channel skip="0">9</channel>
+    <channel skip="0">11</channel>
+    <channel skip="0">13</channel>
+    <channel skip="0">15</channel>
+   </group>
+  </channelGroups>
+ </anatomicalDescription>
+ <spikeDetection>
+  <channelGroups>
+   <group>
+    <channels>
+     <channel>0</channel>
+     <channel>2</channel>
+     <channel>4</channel>
+     <channel>6</channel>
+    </channels>
+    <nSamples>32</nSamples>
+    <peakSampleIndex>16</peakSampleIndex>
+    <nFeatures>3</nFeatures>
+   </group>
+   <group>
+    <channels>
+     <channel>1</channel>
+     <channel>3</channel>
+     <channel>5</channel>
+     <channel>7</channel>
+    </channels>
+    <nSamples>32</nSamples>
+    <peakSampleIndex>16</peakSampleIndex>
+    <nFeatures>3</nFeatures>
+   </group>
+   <group>
+    <channels>
+     <channel>8</channel>
+     <channel>10</channel>
+     <channel>12</channel>
+     <channel>14</channel>
+    </channels>
+    <nSamples>32</nSamples>
+    <peakSampleIndex>16</peakSampleIndex>
+    <nFeatures>3</nFeatures>
+   </group>
+   <group>
+    <channels>
+     <channel>9</channel>
+     <channel>11</channel>
+     <channel>13</channel>
+     <channel>15</channel>
+    </channels>
+    <nSamples>32</nSamples>
+    <peakSampleIndex>16</peakSampleIndex>
+    <nFeatures>3</nFeatures>
+   </group>
+  </channelGroups>
+ </spikeDetection>
+ <units>
+  <unit>
+   <group>1</group>
+   <cluster>2</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>2</group>
+   <cluster>2</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>2</group>
+   <cluster>3</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>2</group>
+   <cluster>4</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>2</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>3</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>4</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>5</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>6</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>7</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>8</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>9</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>10</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>11</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>12</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>13</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>14</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>15</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>16</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>17</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>18</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>19</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>20</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>21</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>22</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>23</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>24</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>25</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>26</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>27</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>28</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>29</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>30</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>31</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>32</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>33</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>34</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>35</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>36</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>37</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>38</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>39</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>40</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>41</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>3</group>
+   <cluster>42</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>4</group>
+   <cluster>2</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>5</group>
+   <cluster>2</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>5</group>
+   <cluster>3</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>6</group>
+   <cluster>2</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+  <unit>
+   <group>7</group>
+   <cluster>2</cluster>
+   <structure></structure>
+   <type></type>
+   <isolationDistance></isolationDistance>
+   <quality></quality>
+   <notes></notes>
+  </unit>
+ </units>
+ <neuroscope version="1.2.5">
+  <miscellaneous>
+   <screenGain>0.200000</screenGain>
+   <traceBackgroundImage></traceBackgroundImage>
+  </miscellaneous>
+  <video>
+   <rotate>0</rotate>
+   <flip>0</flip>
+   <videoImage></videoImage>
+   <positionsBackground>0</positionsBackground>
+  </video>
+  <spikes>
+   <nSamples>32</nSamples>
+   <peakSampleIndex>16</peakSampleIndex>
+  </spikes>
+  <channels>
+   <channelColors>
+    <channel>0</channel>
+    <color>#0080ff</color>
+    <anatomyColor>#0080ff</anatomyColor>
+    <spikeColor>#0080ff</spikeColor>
+   </channelColors>
+   <channelOffset>
+    <channel>0</channel>
+    <defaultOffset>0</defaultOffset>
+   </channelOffset>
+   <channelColors>
+    <channel>1</channel>
+    <color>#0080ff</color>
+    <anatomyColor>#0080ff</anatomyColor>
+    <spikeColor>#0080ff</spikeColor>
+   </channelColors>
+   <channelOffset>
+    <channel>1</channel>
+    <defaultOffset>0</defaultOffset>
+   </channelOffset>
+   <channelColors>
+    <channel>2</channel>
+    <color>#0080ff</color>
+    <anatomyColor>#0080ff</anatomyColor>
+    <spikeColor>#0080ff</spikeColor>
+   </channelColors>
+   <channelOffset>
+    <channel>2</channel>
+    <defaultOffset>0</defaultOffset>
+   </channelOffset>
+   <channelColors>
+    <channel>3</channel>
+    <color>#0080ff</color>
+    <anatomyColor>#0080ff</anatomyColor>
+    <spikeColor>#0080ff</spikeColor>
+   </channelColors>
+   <channelOffset>
+    <channel>3</channel>
+    <defaultOffset>0</defaultOffset>
+   </channelOffset>
+   <channelColors>
+    <channel>4</channel>
+    <color>#0080ff</color>
+    <anatomyColor>#0080ff</anatomyColor>
+    <spikeColor>#0080ff</spikeColor>
+   </channelColors>
+   <channelOffset>
+    <channel>4</channel>
+    <defaultOffset>0</defaultOffset>
+   </channelOffset>
+   <channelColors>
+    <channel>5</channel>
+    <color>#0080ff</color>
+    <anatomyColor>#0080ff</anatomyColor>
+    <spikeColor>#0080ff</spikeColor>
+   </channelColors>
+   <channelOffset>
+    <channel>5</channel>
+    <defaultOffset>0</defaultOffset>
+   </channelOffset>
+   <channelColors>
+    <channel>6</channel>
+    <color>#0080ff</color>
+    <anatomyColor>#0080ff</anatomyColor>
+    <spikeColor>#0080ff</spikeColor>
+   </channelColors>
+   <channelOffset>
+    <channel>6</channel>
+    <defaultOffset>0</defaultOffset>
+   </channelOffset>
+   <channelColors>
+    <channel>7</channel>
+    <color>#0080ff</color>
+    <anatomyColor>#0080ff</anatomyColor>
+    <spikeColor>#0080ff</spikeColor>
+   </channelColors>
+   <channelOffset>
+    <channel>7</channel>
+    <defaultOffset>0</defaultOffset>
+   </channelOffset>
+   <channelColors>
+    <channel>8</channel>
+    <color>#0080ff</color>
+    <anatomyColor>#0080ff</anatomyColor>
+    <spikeColor>#0080ff</spikeColor>
+   </channelColors>
+   <channelOffset>
+    <channel>8</channel>
+    <defaultOffset>0</defaultOffset>
+   </channelOffset>
+   <channelColors>
+    <channel>9</channel>
+    <color>#0080ff</color>
+    <anatomyColor>#0080ff</anatomyColor>
+    <spikeColor>#0080ff</spikeColor>
+   </channelColors>
+   <channelOffset>
+    <channel>9</channel>
+    <defaultOffset>0</defaultOffset>
+   </channelOffset>
+   <channelColors>
+    <channel>10</channel>
+    <color>#0080ff</color>
+    <anatomyColor>#0080ff</anatomyColor>
+    <spikeColor>#0080ff</spikeColor>
+   </channelColors>
+   <channelOffset>
+    <channel>10</channel>
+    <defaultOffset>0</defaultOffset>
+   </channelOffset>
+   <channelColors>
+    <channel>11</channel>
+    <color>#0080ff</color>
+    <anatomyColor>#0080ff</anatomyColor>
+    <spikeColor>#0080ff</spikeColor>
+   </channelColors>
+   <channelOffset>
+    <channel>11</channel>
+    <defaultOffset>0</defaultOffset>
+   </channelOffset>
+   <channelColors>
+    <channel>12</channel>
+    <color>#0080ff</color>
+    <anatomyColor>#0080ff</anatomyColor>
+    <spikeColor>#0080ff</spikeColor>
+   </channelColors>
+   <channelOffset>
+    <channel>12</channel>
+    <defaultOffset>0</defaultOffset>
+   </channelOffset>
+   <channelColors>
+    <channel>13</channel>
+    <color>#0080ff</color>
+    <anatomyColor>#0080ff</anatomyColor>
+    <spikeColor>#0080ff</spikeColor>
+   </channelColors>
+   <channelOffset>
+    <channel>13</channel>
+    <defaultOffset>0</defaultOffset>
+   </channelOffset>
+   <channelColors>
+    <channel>14</channel>
+    <color>#0080ff</color>
+    <anatomyColor>#0080ff</anatomyColor>
+    <spikeColor>#0080ff</spikeColor>
+   </channelColors>
+   <channelOffset>
+    <channel>14</channel>
+    <defaultOffset>0</defaultOffset>
+   </channelOffset>
+   <channelColors>
+    <channel>15</channel>
+    <color>#0080ff</color>
+    <anatomyColor>#0080ff</anatomyColor>
+    <spikeColor>#0080ff</spikeColor>
+   </channelColors>
+   <channelOffset>
+    <channel>15</channel>
+    <defaultOffset>0</defaultOffset>
+   </channelOffset>
+  </channels>
+ </neuroscope>
+ <programs>
+  <program>
+   <name>ndm_extractspikes</name>
+   <parameters>
+    <parameter>
+     <name>thresholdFactor</name>
+     <value>1</value>
+     <status>Mandatory</status>
+    </parameter>
+    <parameter>
+     <name>refractoryPeriod</name>
+     <value>16</value>
+     <status>Mandatory</status>
+    </parameter>
+    <parameter>
+     <name>peakSearchLength</name>
+     <value>32</value>
+     <status>Mandatory</status>
+    </parameter>
+    <parameter>
+     <name>start</name>
+     <value>0</value>
+     <status>Mandatory</status>
+    </parameter>
+    <parameter>
+     <name>duration</name>
+     <value>120</value>
+     <status>Mandatory</status>
+    </parameter>
+   </parameters>
+   <help>Extract spikes from high-pass filtered .fil file (this creates .res and .spk files).
+
+First, the program automatically computes a baseline 'noise' level, using a subset of the data. Then, spikes are extracted whenever the signal crosses a threshold proportional to the baseline 'noise' level. To avoid spurious detections, the signal must have a local maximum (or minimum, depending on the sign of the signal) within a fixed search window starting at threshold crossing. Also, the duration between consecutive spikes must be greater than a fixed 'refractory' period.
+
+PARAMETERS
+
+# thresholdFactor
+
+Threshold = thresholdFactor * baseline 'noise' level
+
+# refractoryPeriod
+
+Number of samples to skip after a spike, before trying to detect a new spike
+
+# peakSearchLength
+
+Length of the peak search window (in number of samples)
+
+# start
+
+Starting point in the file (in s) for computation of baseline 'noise' level
+
+# duration
+
+Duration (in s) for computation of baseline 'noise' level
+</help>
+  </program>
+  <program>
+   <name>ndm_hipass</name>
+   <parameters>
+    <parameter>
+     <name>windowHalfLength</name>
+     <value>16</value>
+     <status>Mandatory</status>
+    </parameter>
+   </parameters>
+   <help>High-pass filter a .dat file (required for spike extraction).
+
+The program uses a median-based (non-linear) filter to minimize spike waveform distortion.
+
+PARAMETERS
+
+# windowHalfWidth
+
+Determines the cutoff frequency
+</help>
+  </program>
+  <program>
+   <name>ndm_lfp</name>
+   <parameters>
+    <parameter>
+     <name>samplingRate</name>
+     <value>1250</value>
+     <status>Mandatory</status>
+    </parameter>
+   </parameters>
+   <help>Downsample a .dat file to create the corresponding LFP file.
+
+PARAMETERS
+
+# samplingRate
+
+Target sampling rate (default = 1250Hz)</help>
+  </program>
+  <program>
+   <name>ndm_pca</name>
+   <parameters>
+    <parameter>
+     <name>before</name>
+     <value>4</value>
+     <status>Mandatory</status>
+    </parameter>
+    <parameter>
+     <name>after</name>
+     <value>4</value>
+     <status>Mandatory</status>
+    </parameter>
+    <parameter>
+     <name>extra</name>
+     <value>false</value>
+     <status>Mandatory</status>
+    </parameter>
+   </parameters>
+   <help>Compute principal component analysis (PCA).
+
+PARAMETERS
+
+All mandatory parameters are defined in the 'Acquisition System' and 'Spike Groups' tab.
+
+OPTIONAL PARAMETERS
+
+# before
+
+Number of samples before the peak to use for the PCA. This can be either a space-separated list of numbers (one per electrode group), or a single common number for all groups.
+
+# after
+
+Number of samples after the peak to use for the PCA. This can be either a space-separated list of numbers (one per electrode group), or a single common number for all groups.
+
+# extra
+
+Whether extra features (spike peak value) should be included in the output files.</help>
+  </program>
+  <program>
+   <name>ndm_resample</name>
+   <parameters>
+    <parameter>
+     <name>suffixes</name>
+     <value>30000 40000</value>
+     <status>Mandatory</status>
+    </parameter>
+    <parameter>
+     <name>samplingRates</name>
+     <value>30000 40000</value>
+     <status>Mandatory</status>
+    </parameter>
+    <parameter>
+     <name>nChannels</name>
+     <value>16 16</value>
+     <status>Mandatory</status>
+    </parameter>
+   </parameters>
+   <help>Resample individual .dat files from their original sampling rates to the common sampling rate of the final .dat file.
+
+PARAMETERS
+
+# suffixes
+
+List of suffixes for the individual files to resample
+
+# samplingRate
+
+List of original sampling rates (in the same order as the suffixes). Leave this empty if you do not need resampling.
+
+# nChannels
+
+List of numbers of channels in the individual data files (in the same order as the suffixes)</help>
+  </program>
+  <program>
+   <name>ndm_start</name>
+   <parameters>
+    <parameter>
+     <name>suffixes</name>
+     <value>raw</value>
+     <status>Mandatory</status>
+    </parameter>
+    <parameter>
+     <name>wideband</name>
+     <value>false</value>
+     <status>Mandatory</status>
+    </parameter>
+    <parameter>
+     <name>video</name>
+     <value>false</value>
+     <status>Mandatory</status>
+    </parameter>
+    <parameter>
+     <name>concatenation</name>
+     <value>false</value>
+     <status>Mandatory</status>
+    </parameter>
+   </parameters>
+   <help>Perform all processing steps for a multiple sets of multiple-session recordings: format conversion, channel extraction and reordering, video transcoding and tracking, data concatenation, spike detection and extraction, etc.
+
+PARAMETERS
+
+# suffixes
+
+List of suffixes for the individual files to convert
+
+OPTIONAL PARAMETERS
+
+Note: To keep the interface simpler, optional parameters have default values and are not listed in the 'Parameters' tab; to choose custom values, click the 'Add' button and manually add the required parameters (and custom values) to the list.
+
+# wideband
+
+Process the wideband data files recorded by the acquisition system: convert to .dat format, resample, merge, extract and reorder channels (default = true)
+
+# video
+
+Process video files recorded by the acquisition system: transcode and extract LEDs (default = true)
+
+# events
+
+Process event files recorded by the acquisition system: convert to .evt format and rename events (default = true)
+
+# concatenation
+
+Concatenate subsession files (default = true)
+
+# spikes
+
+Process spikes: detect and extract spike waveforms, perform PCA (default = true)
+
+# lfp
+
+Downsample wideband signals to produce LFP files (default = true)
+
+# clean
+
+Remove intermediate files after pre-processing is complete (default = false)
+
+# log
+
+Save progress information to log files for later review (use 'cat' or 'less -R' for correct formatting) (default = true)
+</help>
+  </program>
+ </programs>
+</parameters>

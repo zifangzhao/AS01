@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Encoding=UTF-8
+Name=AS01-Sorting-Server-GUI
+Comment=GUI control panel for sorting server
+Exec=sh /usr/local/bin/cereloop/AS01_start.sh
+#Icon=/usr/local/eclipse/icon.xpm  #根据软件的具体执行路径修改
+Terminal=true  #软件打开时是否启动终端
+StartupNotify=false
+Type=Application
+Categories=Application;
