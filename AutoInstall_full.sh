@@ -136,7 +136,7 @@ echo ""
 # 5. Install Miniconda
 # ---------------------------------------------------------------------------
 echo "[5/7] Installing Miniconda..."
-MINICONDA_INSTALLER="Miniconda3-latest-Linux-x86_64.sh"
+MINICONDA_INSTALLER="Miniconda3-py39_23.3.1-0-Linux-x86_64.sh"
 MINICONDA_URL="https://repo.anaconda.com/miniconda/$MINICONDA_INSTALLER"
 
 if ! command -v conda &>/dev/null; then
