@@ -19,9 +19,9 @@ class NsxFile:
             tempstr += str(x.decode("UTF-8"))
         print(self.filename + " File type:" + tempstr)
         self.FileTypeID = tempstr
-        self.BytesInHeaders = struct.unpack('<I', self.header['BytesInHeaders'])[0]
-        self.channel_count = struct.unpack('<I', self.header['ChannelCount'])[0]
-        self.sampling_rate = struct.unpack('<I', self.header['TimeResolution'])[0]
+        self.BytesInHeaders = struct.unpack('L', self.header['BytesInHeaders'])[0]
+        self.channel_count = struct.unpack('L', self.header['ChannelCount'])[0]
+        self.sampling_rate = struct.unpack('L', self.header['TimeResolution'])[0]
         self.file_bytes = os.path.getsize(filename)
 
         # read data package information
