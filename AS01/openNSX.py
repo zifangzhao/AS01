@@ -19,9 +19,9 @@ class NsxFile:
             tempstr += str(x.decode("UTF-8"))
         print(self.filename + " File type:" + tempstr)
         self.FileTypeID = tempstr
-        self.BytesInHeaders = struct.unpack('L', self.header['BytesInHeaders'])[0]
-        self.channel_count = struct.unpack('L', self.header['ChannelCount'])[0]
-        self.sampling_rate = struct.unpack('L', self.header['TimeResolution'])[0]
+        self.BytesInHeaders = struct.unpack('<I', self.header['BytesInHeaders'])[0]
+        self.channel_count = struct.unpack('<I', self.header['ChannelCount'])[0]
+        self.sampling_rate = struct.unpack('<I', self.header['TimeResolution'])[0]
         self.file_bytes = os.path.getsize(filename)
 
         # read data package information
@@ -42,7 +42,7 @@ class NsxFile:
                 section_header = {header_items[x]: np.fromfile(self.filename, dtype=np.uint8, count=header_bytes[x],
                                                                offset=offsets[x]) for x in range(len(header_items))}
                 header = struct.unpack('c', section_header['id'])[0]
-                data_section_points = struct.unpack('L', section_header['number_of_points'])[0]
+                data_section_points = struct.unpack('<I', section_header['number_of_points'])[0]
                 if (header == b'\x01'):
                     data_locations += [[offsets[-1], data_section_points * self.channel_count * 2]]
                 else:
